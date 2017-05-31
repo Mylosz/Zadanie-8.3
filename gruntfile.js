@@ -11,23 +11,23 @@ module.exports = function(grunt) {
   			}
   		}
   	},
+    jshint: {
+      all: ['js/*.js']
+    },
     watch: {
     scripts: {
-        files: ['sass/style.sass'],
+        files: ['style.sass'],
         tasks: ['sass'],
         options: {
             spawn: false,
         },
     }
 },
-    jshint: {
-      all: ['js/scripts.js']
-    }
   });
 
 
 grunt.loadNpmTasks('grunt-sass');
-grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-contrib-jshint');
+grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.registerTask('default', ['sass', 'watch', 'jshint']);
 };

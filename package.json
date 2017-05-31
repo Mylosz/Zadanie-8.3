@@ -1,28 +1,32 @@
 {
-  "name": "wroclawska47",
+  "name": "milosz",
   "version": "1.0.0",
-  "description": "",
-  "main": "nowygrunt js",
-  "scripts": {
-    "test": "nowygrunt"
+  "description": "opis",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mylosz/Repozytorium-javascript.git"
-  },
-  "keywords": [
-    "grunt"
-  ],
-  "author": "Milosz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mylosz/Repozytorium-javascript/issues"
-  },
-  "homepage": "https://github.com/Mylosz/Repozytorium-javascript#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0"
-  }
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mylosz/Zadanie-8.3.git"
+  },
+  "author": "milosz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mylosz/Zadanie-8.3/issues"
+  },
+  "homepage": "https://github.com/Mylosz/Zadanie-8.3#readme"
 }
